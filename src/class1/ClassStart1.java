@@ -1,6 +1,12 @@
 package class1;
 
 public class ClassStart1 {
+    /*
+    * 클래스가 필요한 이유
+    * 자바 세상은 클래스와 객체로 이루어져 있다.
+    * 그만큼 클래스와 자바라는 개념은 매우 중요!
+    */
+    
     public static void main(String[] args) {
         String student1Name = "학생1";
         int student1Age = 15;
