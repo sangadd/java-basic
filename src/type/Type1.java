@@ -1,6 +1,6 @@
-package Type;
+package type;
 
-public class Type {
+public class Type1 {
     public static void main(String[] args) {
         /*
          * 기본형 VS 참조형
