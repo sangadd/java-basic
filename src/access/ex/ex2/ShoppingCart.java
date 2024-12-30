@@ -4,6 +4,7 @@ public class ShoppingCart {
     private Item[] items = new Item[10];
     private int itemCount;
 
+    // 이 클래스 내부에서 또는 외부에서 사용하는 메서드인지 생각해보고 접근 제어자 사용하기!!!!!!!!!!
     public void addItem(Item item) {
         // 검증 로직 
         if (itemCount >= items.length) {
