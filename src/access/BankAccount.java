@@ -28,7 +28,7 @@ public class BankAccount {
         }
     }
 
-    // 잔고
+
     public int getBalance() {
         return balance;
     }
