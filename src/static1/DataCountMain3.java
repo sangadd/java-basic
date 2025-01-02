@@ -31,5 +31,19 @@ public class DataCountMain3 {
         Data3 data3 = new Data3("C");
         System.out.println(Data3.count);
 
+        // 추가
+        // 인스턴스를 통한 접근
+        Data3 data4 = new Data3("D");
+        System.out.println(data4.count); // 정적 변수인 경우 인스턴스를 통한 접근은 추천 X 왜냐하면 코드를 읽을 때 마치 인스턴스 변수에 접근하는 것처럼 오해 가능
+
+        /*
+        코딩할 때 만드는 입장과 가져다 쓰는 입장으로 나눠야 하는데
+        제일 중요한건 가져다 쓰는 입장임
+        */
+
+        // 클래스를 통한 접근
+        System.out.println(Data3.count); // 정적 변수는 클래스에서 공용으로 관리하기 때문에 클래스를 통해서 접근하는 것이 더 명확함
+        // 따라서 정적 변수에 접근할 때는 클래스를 통해서 접근하자!!!!!!!!!
+
     }
 }
