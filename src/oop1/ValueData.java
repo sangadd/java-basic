@@ -1,7 +1,7 @@
 package oop1;
 
 public class ValueData {
-    int value;
+    public int value;
 
     void add(){
         value++;
