@@ -6,9 +6,10 @@ public class Child implements InterfaceA, InterfaceB {
         System.out.println("Child.methodA");
     }
 
+    // (3) 이 메서드가 호출됨
     @Override
     public void methodB() {
-        System.out.println("Child.methodA");
+        System.out.println("Child.methodB");
 
     }
 
