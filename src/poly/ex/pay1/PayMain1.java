@@ -1,6 +1,6 @@
 package poly.ex.pay1;
 
-public class PayMain {
+public class PayMain1 {
     public static void main(String[] args) {
         PayService payService = new PayService();
 
@@ -19,6 +19,10 @@ public class PayMain {
         int amount3 = 15000;
         payService.processPay(payOption3, amount3);
 
+        //newPay
+        String payOption4 = "new";
+        int amount4 = 10000;
+        payService.processPay(payOption4, amount4);
     }
 
 }
